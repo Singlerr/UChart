@@ -5,7 +5,7 @@ const { MongoClient } = require("mongodb");
 const { allowedNodeEnvironmentFlags } = require("process");
 
 const uri =
-  "mongodb+srv://samjong:yXX8PynQUa6uvrR9@cluster0.ppmft.mongodb.net?retryWrites=true&w=majority";
+  "uri";
 
 const client = new MongoClient(uri);
 
